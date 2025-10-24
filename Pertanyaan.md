@@ -71,4 +71,12 @@ adalah “batal”, maka berapa kali perulangan dilakukan?
 4. Mengapa perulangan DO-WHILE tersebut tetap berjalan meskipun tidak ada komponen
 inisialisasi dan update?
 
+**Jawaban Percobaan 3**
+1. Perulangan dilakukan satu kali, karena menggunakan DO-WHILE yang dimana program akan dijalankan terlebih dahulu dan baru memeriksa kondisinya.
+2. Kondisi berhenti (BREAK) akan terjadi apabila nama pelanggan yang dimasukkan pertama kali adalah "batal", break akan menghentikan eksekusi loop meskipun kondisinya belum terpenuhi. Setelah itu program akan melanjutkan ke pernyataan setelah perulangan.
+3. Fungsi dari nilai true itu untuk membuat perulangan tanpa batas (infinite loop) yang akan berjalan terus-menerus. Sampai suatu kondisi tertentu di dalam loop dipenuhi (yaitu, pelanggan mengetik "batal"), kemudian memicu break;.
+4. Karena inisialisasi dan update secara eksplisit hanya wajib ada pada perulangan for. 
+DO-WHILE loop hanya membutuhkan satu komponen yaitu kondisi: (do { ... } while (condition);).
+
+
 
