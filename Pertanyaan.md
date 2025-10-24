@@ -52,6 +52,17 @@ akan berjalan?
 program menampilkan pesan tambahan "Bagus, pertahankan nilainya"!
 5. Commit dan push kode program ke Github
 
+**Jawaban Percobaan 2**
+1. a. nilai < 0 || nilai > 100 : 
+    nilai < 0 : memeriksa apakah nilai yang dimasukkan kurang dari nol (negatif).
+    nilai > 100 : memeriksa apakah nilai yang dimasukkan lebih dari seratus.
+    sebuah ekspresi logika yang memiliki arti:"Variabel nilai berada di luar rentang 0 sampai 100". 
+   b. continue : digunakan untuk melewati (skip) iterasi saat ini (1 iterasi saja) dan melanjutkan ke iterasi berikutnya. Setelah continue program tidak akan menjalankan perintah di bawahnya dalam loop, tetapi akan langsung melanjutkan ke iterasi berikutnya.
+2. Jika sintaks i++ dituliskan di awal perulangan WHILE, maka program akan langsung menghitung     untuk nilai mahasiswa ke-2, karena jika i++ di atas itu bernilai 1, jadi pada blok pertama "Masukkan nilai mahasiswa ke-" + (i + 1) + ": ", otomatis 1+1 = 2. Maka keluarlah output "Masukkan nilai mahasiswa ke-2:". Maka i++ ditulis diakhir bertujuan untuk menginputkan satu nilai, program akan melakukan perulangan ke nilai mahasiswa selanjutnya.
+3. Perulangan WHILE akan berjalan sebanyak 19 kali (i < 19) bersifat true.
+4. Saya menambahkan kode program System.out.println("Bagus, pertahankan nilainya");
+   di bawah kode program System.out.println("Nilai mahasiswa ke-" + (i + 1) + " adalah A");
+
 **Pertanyaan Percobaan 3**
 1. Pada penggunaan DO-WHILE ini, apabila nama pelanggan yang dimasukkan pertama kali
 adalah “batal”, maka berapa kali perulangan dilakukan?
