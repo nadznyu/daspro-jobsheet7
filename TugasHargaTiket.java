@@ -18,6 +18,7 @@ public class TugasHargaTiket {
             }
             if (jmlTiket < 0) {
                 System.out.println("Jumlah tiket negatif. ulang!");
+                System.out.println();
                 continue;
             }
             if (jmlTiket > 10) {
